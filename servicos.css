@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+h1{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+.pinicio{
+    margin-top: 4px;
+    text-align: center;
+    color: #a7a2a2;
+}
+
+.caixa {
+    margin-top: 25px;
+    width: 350px;
+    height: auto;
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.nav{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center; /* ou: space-between, space-around, space-evenly */
+    gap: 20px; /* espaço entre as caixas */
+}
+
+@media (max-width: 768px){
+    .caixa {
+    width: 90%; 
+    padding-bottom: 17px;
+    height: auto;   
+    margin: auto auto;
+    margin-left: 20px;
+    margin-right: 20px;
+     /* Centraliza horizontalmente */
+    }
+}

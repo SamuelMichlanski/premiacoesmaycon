@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maycon Premiações</title>
+    <link rel="stylesheet" href="maycon.css">
+    <link rel="shortcut icon" href="image/Coroa e _M_ Vermelho Distintivos.png" type="image/x-icon">
+</head>
+<body>
+    
+    <video class="background-video" autoplay muted loop playsinline>
+      <source src="image/videoip.mp4" type="video/mp4">
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+    
+    <div class="menu" onclick="toggleSidebar()">☰</div>
+
+     <div id="sidebar" class="sidebar">    
+               <a href="maycon.html">Home</a>
+               <a href="contato.html">Contato</a>
+               <a href="servicos.html">Serviços</a>
+               <a href="sobre.html">Sobre</a>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="titulo">
+            <a href="maycon.html"><img src="image/logo.pg.png" alt=""></a>
+        </div>
+        <div style="width: 0px;"></div>
+    </div>
+
+
+
+    
+    <div class="mimg">
+        <div class="imagem-moldura">
+            <img src="image/foto_maycon.jpg" alt="Descrição da imagem">
+        </div>
+    </div>
+    
+    <div class="conteudo">
+        <h2> Maycon Premiações</h2>
+        <p>Açôes 100% legalizadas</p>
+        
+        <p class="clique">⬇️ CLIQUE AQUI PARA PARTICIPAR ⬇️</p>
+    </div>
+    
+   
+<div class="iphone">
+    <a href="https://rifei.com.br/iphone-16pro-max-ou-5-mil" target="_blank">
+        <img src="image/ip.jpg" alt=""> Ação do IPHONE ou 5 MIL NO PIX 💸
+    </a>
+</div>
+
+<div class="insta">
+    <a href="https://www.instagram.com/maycon_premiacoes?igsh=ZDBxdThvYnV4ajdv&utm_source=qr" target="_blank">
+        <img src="image/instagram.png" alt=""> Instagram
+    </a>
+</div>
+
+<div class="whatsapp">
+    <a href="https://chat.whatsapp.com/EoTlygsQiCnLw4s5esziSJ" target="_blank" rel="noopener noreferrer">
+        <img src="image/whatsapp.png" alt="WhatsApp"> Grupo VIP Do WhatsApp
+  </a>
+</div>
+
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.toggle("open");
+  }
+
+  document.addEventListener("click", function(event) {
+    const sidebar = document.getElementById("sidebar");
+    const menuButton = document.querySelector(".menu");
+
+    // Se o clique não foi na sidebar nem no botão do menu
+    if (
+      sidebar.classList.contains("open") &&
+      !sidebar.contains(event.target) &&
+      !menuButton.contains(event.target)
+    ) {
+      sidebar.classList.remove("open");
+    }
+  });
+</script>
+
+      
+
+    </body>
