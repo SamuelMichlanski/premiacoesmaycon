@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 body{
     font-family: "Montserrat", sans-serif;
 }
@@ -23,13 +21,12 @@ h1{
 h2{
     font-family: "Raleway", sans-serif;
     padding-bottom: 45px;
-
 }
 
 .pinicio{
-        margin-top: 4px;
-        text-align: center;
-        color: #a7a2a2;
+    margin-top: 4px;
+    text-align: center;
+    color: #a7a2a2;
 }
 
 .caixa {
@@ -43,10 +40,10 @@ h2{
 }
 
 .caixa {
-     text-align: justify;
-     max-width: 600px; /* ou outro valor desejado */
-     margin: 0 auto;   /* centraliza horizontalmente */
-     padding: 20px;    /* opcional: para respiro interno */
+    text-align: justify;
+    max-width: 600px; /* ou outro valor desejado */
+    margin: 0 auto;   /* centraliza horizontalmente */
+    padding: 20px;    /* opcional: para respiro interno */
 }
 
 .h2caixas {
@@ -124,14 +121,13 @@ h2{
   }
 }
 
-/* Tablets: até 1024px */
 @media (max-width: 1024px) {
     .caixa{
-        width: 300px;
+    width: 300px;
         
     }
 
     h1{
-        margin-top: 100px;
+    margin-top: 100px;
     }
 }

@@ -29,11 +29,11 @@ h1{
 .nav{
     margin-top: 1px;
     display: flex;
-    justify-content: center; /* ou: space-between, space-around, space-evenly */
-    gap: 20px; /* espaço entre as caixas */
+    justify-content: center;
+    gap: 20px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     .caixa {
     width: 90%; 
     padding-bottom: 17px;
@@ -41,6 +41,5 @@ h1{
     margin: auto auto;
     margin-left: 20px;
     margin-right: 20px;
-     /* Centraliza horizontalmente */
     }
 }

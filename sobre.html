@@ -10,78 +10,62 @@
 </head>
 <body>
 
-    <video class="background-video" autoplay muted loop playsinline>
+<video class="background-video" autoplay muted loop playsinline>
       <source src="image/videoip.mp4" type="video/mp4">
       Seu navegador não suporta vídeos HTML5.
-    </video>
+</video>
 
-    <div class="menu" onclick="toggleSidebar()">☰</div>
+<div class="menu" onclick="toggleSidebar()">☰</div>
 
-     <div id="sidebar" class="sidebar">    
-               <a href="index.html">Início</a>
-               <a href="contato.html">Contato</a>
-               <a href="servicos.html">Serviços</a>
-               <a href="sobre.html">Sobre</a>
+<div id="sidebar" class="sidebar">    
+    <a href="index.html">Início</a>
+    <a href="contato.html">Contato</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="sobre.html">Sobre</a>
+</div>
+
+<div class="navbar">
+    <div class="titulo">
+        <a href="maycon.html"><img src="image/logo.pg.png" alt=""></a>
     </div>
+    <div style="width: 24px;"></div>
+</div>
 
-    
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="titulo">
-            <a href="maycon.html"><img src="image/logo.pg.png" alt=""></a>
-        </div>
-        <div style="width: 24px;"></div>
-    </div>
+<div class="contexto">
+    <h1>Sobre</h1>
+    <p class="pinicio"> Aqui voçê encontrará tudo sobre a plataforma</p>
+</div>
 
-    <div class="contexto">
-        <h1>Sobre</h1>
-        <p class="pinicio"> Aqui voçê encontrará tudo sobre a plataforma</p>
-    </div>
+<main class="nav">
 
-    <main class="nav">
-
-
-        <div class="caixa">
-            
-            <h2 class="h2caixas">Participe da Ação Premiada</h2>
-
-            <p class="pcaixa">
+    <div class="caixa">
+        <h2 class="h2caixas">Participe da Ação Premiada</h2>
+        <p class="pcaixa">
                 🎁 Participe da nossa ação premiada e escolha seu prêmio! Você pode levar para casa um iPhone 16 Pro Max lacrado ou receber R$5.000 via Pix direto na sua conta. Tudo é feito de forma rápida, fácil e segura.  
-            </p>
-
-        </div>
-
-        <div class="caixa">
-
-            <h2 class="h2caixas">Benefícios da Plataforma</h2>
-
-            <p class="pcaixa">
+        </p>
+    </div>
+    <div class="caixa">
+        <h2 class="h2caixas">Benefícios da Plataforma</h2>
+        <p class="pcaixa">
                 💸 Nossa plataforma oferece números acessíveis para todos, com a lista de participantes sempre visível e atualizada. O pagamento via Pix é rápido e descomplicado, e o sorteio é realizado ao vivo, com total transparência e direito a comprovante.
-            </p>
+        </p>
+    </div>
 
-        </div>
-
-        <div class="caixa">
-
-            <h2 class="h2caixas">Confiabilidade e Suporte</h2>
-
-            <p class="pcaixa">
+    <div class="caixa">
+        <h2 class="h2caixas">Confiabilidade e Suporte</h2>
+        <p class="pcaixa">
                 🔐 Somos uma plataforma verificada e utilizada por centenas de pessoas em todo o Brasil. Você participa com total segurança e conta com suporte direto da equipe. 🎉 Garanta já seu número e boa sorte — o próximo ganhador pode ser você
 
-            </p>
-
-        </div>
- 
-    </main>
-    
-    <div class="divisao">
-
-        <h2 class="h2final">Como posso te ajudar hoje ?</h2>
-
-        <a class="falec" href="contato.html">Fale Conosco</a>
-
+        </p>
     </div>
-        <script>
+</main>
+    
+<div class="divisao">
+    <h2 class="h2final">Como posso te ajudar hoje ?</h2>
+    <a class="falec" href="contato.html">Fale Conosco</a>
+</div>
+
+<script>
   function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("open");
@@ -101,6 +85,5 @@
     }
   });
 </script>
-
 
     </body>

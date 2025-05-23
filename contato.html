@@ -10,70 +10,64 @@
 </head>
 <body>
 
-    <video class="background-video" autoplay muted loop playsinline>
+<video class="background-video" autoplay muted loop playsinline>
       <source src="image/videoip.mp4" type="video/mp4">
       Seu navegador não suporta vídeos HTML5.
-    </video>
+</video>
 
-    <div class="menu" onclick="toggleSidebar()">☰</div>
+<div class="menu" onclick="toggleSidebar()">☰</div>
 
-     <div id="sidebar" class="sidebar">    
+<div id="sidebar" class="sidebar">    
                <a href="index.html">Início</a>
                <a href="contato.html">Contato</a>
                <a href="servicos.html">Serviços</a>
                <a href="sobre.html">Sobre</a>
-     </div>
+</div>
 
-    
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="titulo">
+<div class="navbar">
+    <div class="titulo">
             <a href="maycon.html"><img src="image/logo.pg.png" alt=""></a>
-        </div>
-        <div style="width: 24px;"></div>
     </div>
+    <div style="width: 24px;"></div>
+</div>
 
-    <div class="contexto">
-        <h1>Contate me</h1>
-        <p class="pinicio"></p>
-    </div>  
+<div class="contexto">
+    <h1>Contate me</h1>
+    <p class="pinicio"></p>
+</div>  
 
 
-    <main>
+<main>
+  <div class="caixa">
+    <h2 class="h2caixas">Fale com o Maycon  Premiações</h2>
+    <p class="pcaixa">
+      Tem alguma dúvida, sugestão ou precisa de ajuda para participar de uma das nossas ações?
+      Entre em contato com a nossa equipe — será um prazer te atender!
 
-      <div class="caixa">
+      ⏰ Horário de atendimento:
+      Segunda a Sábado — das 08h às 18hrs
+      (Domingo com atendimento limitado, apenas para dúvidas rápidas)
+
+      Responderemos o mais rápido possível!
+      Transparência, respeito e confiança são a base do nosso trabalho.
+      </p>
+      </div>   
+</main>
+
+
+<div class="redes">
+  <a class="a1" href="https://api.whatsapp.com/send?phone=554688002857" target="_blank" ><img src="image/whatsapp_icone.png">
+  </a>
       
-              <h2 class="h2caixas">Fale com o Maycon  Premiações</h2>
-              <p class="pcaixa">
-                Tem alguma dúvida, sugestão ou precisa de ajuda para participar de uma das nossas ações?
-                Entre em contato com a nossa equipe — será um prazer te atender!
-
-                ⏰ Horário de atendimento:
-                Segunda a Sábado — das 08h às 18hrs
-                (Domingo com atendimento limitado, apenas para dúvidas rápidas)
-
-                Responderemos o mais rápido possível!
-                Transparência, respeito e confiança são a base do nosso trabalho.
-
-              </p>
-          </div>
-        
-    </main>
-
-
-    <div class="redes">
-      <a class="a1" href="https://api.whatsapp.com/send?phone=554688002857" target="_blank" ><img src="image/whatsapp_icone.png">
-      </a>
-      
-      <a class="a2" href="https://instagram.com/maycon_premiacoes
+  <a class="a2" href="https://instagram.com/maycon_premiacoes
       " target="_blank"><img src="image/instagram_icone.png"  >
-      </a>
+  </a>
       
-      <a class="a3" href="mayconpremiacoes@gmail.com" target="_blank" ><img src="image/gmail_icone.png">
-      </a>
-    </div>
+  <a class="a3" href="mayconpremiacoes@gmail.com" target="_blank" ><img src="image/gmail_icone.png">
+  </a>
+  </div>
     
-    <script>
+  <script>
   function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("open");
@@ -92,7 +86,6 @@
       sidebar.classList.remove("open");
     }
   });
-</script>
-
+  </script>
 
     </body>
